@@ -1,5 +1,5 @@
 let numeroDelista = [];//comando de lista
-let nivelMaximo = 1.000.000;
+let nivelMaximo = 1.000;
 let Numero = gerarNumeroAleatorio();
 let tentativas = 1;
 
