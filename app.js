@@ -1,5 +1,5 @@
 let numeroDelista = [];//comando de lista
-let nivelMaximo = 10;
+let nivelMaximo = 100;
 let Numero = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -17,7 +17,7 @@ function exibirTextonaTela(tag, texto) {
 }
 function exibirMensagemInicial() {
     exibirTextonaTela('h1', 'jogo dos numeros');
-    exibirTextonaTela('p', 'escolha um numero entre 1 e 10');
+    exibirTextonaTela('p', 'escolha um numero entre 1 e 100');
     
 }
     exibirMensagemInicial();
